@@ -16,51 +16,16 @@
         <div class="inputs">
             <textarea name="taskInput" id="taskInput" cols="75" rows="1.75" placeholder="Please Enter The Tasks"
                 required></textarea>
-            <button class="btn" id="addBtn">+ADD</button>
+            <button class="btn" id="addBtn" onclick="addTask()">+ADD</button>
         </div>
-        <div class="outputs ">
-            <div class="task strike">
-                <label for="sr#">1.</label> <input type="checkbox" name="taskCheck" id="taskCheck">
-                <label for="task" class="strike">Is
-                    it working</label><br>
-            </div>
-            <div class="task">
-                <label for="sr#">2.</label> <input type="checkbox" name="taskCheck" id="taskCheck"> <label for="task">Is
-                    it working</label><br>
-            </div>
 
 
-            <div class="task">
-                <label for="sr#">2.</label> <input type="checkbox" name="taskCheck" id="taskCheck"> <label for="task">Is
-                    it working</label><br>
-            </div>
-            <div class="task">
-                <label for="sr#">2.</label> <input type="checkbox" name="taskCheck" id="taskCheck"> <label for="task">Is
-                    it working</label><br>
-            </div>
-            <div class="task">
-                <label for="sr#">2.</label> <input type="checkbox" name="taskCheck" id="taskCheck"> <label for="task">Is
-                    it working</label><br>
-            </div>
-            <div class="task">
-                <label for="sr#">2.</label> <input type="checkbox" name="taskCheck" id="taskCheck"> <label for="task">Is
-                    it working</label><br>
-            </div>
-            <div class="task">
-                <label for="sr#">2.</label> <input type="checkbox" name="taskCheck" id="taskCheck"> <label for="task">Is
-                    it working</label><br>
-            </div>
-            <div class="task">
-                <label for="sr#">2.</label> <input type="checkbox" name="taskCheck" id="taskCheck"> <label for="task">Is
-                    it working</label><br>
-            </div>
-            <div class="task">
-                <label for="sr#">2.</label> <input type="checkbox" name="taskCheck" id="taskCheck"> <label for="task">Is
-                    it working</label><br>
-            </div>
+        <div class="outputs " id="dataIn">
         </div>
+
+
         <div class="delete">
-            <button class="deleteBtn"> <span class="material-symbols-outlined">
+            <button class="deleteBtn" onclick="deleteTask()"> <span class="material-symbols-outlined">
                     delete
                 </span> <span class="deleteBtnText">BIN</span> </button>
         </div>

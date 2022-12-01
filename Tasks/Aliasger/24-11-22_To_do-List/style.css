@@ -90,7 +90,7 @@ font-family: 'Rubik Microbe', cursive;
 }
 
 
-#taskCheck {
+.taskCheck {
     margin-right: 0.3em;
     margin-left: 0.3em;
     width: 1em;
